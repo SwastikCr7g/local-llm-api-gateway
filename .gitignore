@@ -1,13 +1,16 @@
-# Ignore Python virtual environments
+# Python virtual environments
 .venv/
 
-# Ignore Python cache
+# Python dependencies installed locally (Windows)
+Lib/
+
+# Python cache
 __pycache__/
 *.pyc
 
-# Ignore OS files
+# VS Code settings
+.vscode/
+
+# macOS and Windows system files
 .DS_Store
 Thumbs.db
-
-# Ignore VS Code settings
-.vscode/
